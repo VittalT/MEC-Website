@@ -145,7 +145,7 @@ footer {
   font-weight: bold;
   color: #002244;
   font-size: 3rem;
-  padding: 1rem;
+  margin-bottom: 30px;
 }
 
 .about-container {
@@ -157,14 +157,13 @@ footer {
 .about-us img {
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 20px;
 }
 
 .about-us p {
   max-width: 100%;
-  margin: 0 auto;
   font-size: 1.2rem;
-  padding: 1rem;
+  margin-bottom: 20px;
 }
 
 .about-description {
@@ -181,4 +180,47 @@ footer {
 
 .text-blue {
   color: darkblue;
+}
+
+.goals {
+  background-color: #e9f0f5;
+  color: #002244;
+}
+
+.goals h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #002244;
+  margin-bottom: 30px;
+}
+
+.goals p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.campus-partners {
+  background-color: #f4f4f9;
+  display: block;
+}
+
+.campus-partners h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #002244;
+}
+
+.partner-logos a {
+  margin: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.partner-logos img {
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.partner-logos img:hover {
+  transform: scale(1.2);
 }
