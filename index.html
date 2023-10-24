@@ -34,58 +34,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-          <img src="./images/short-airplane.png" alt="MEC Logo" width="100" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a onclick="redirectToHomePage()" class="nav-link" href="#"
-                >Home</a
-              >
-            </li>
-            <li onclick="redirectToTeamPage()" class="nav-item">
-              <a class="nav-link" href="#">Team</a>
-            </li>
-            <li class="nav-item">
-              <a
-                onclick="redirectToStartupInterfacePage()"
-                class="nav-link"
-                href="#"
-                >Startup Interface</a
-              >
-            </li>
-            <li class="nav-item">
-              <a onclick="redirectToStarthousePage()" class="nav-link" href="#"
-                >Starthouse</a
-              >
-            </li>
-            <li class="nav-item">
-              <a onclick="redirectToContactUsPage()" class="nav-link" href="#"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-        </div>
-      </nav>
+      <div id="navbar-container"></div>
       <div class="hero text-center p-5">
         <div class="container">
           <img
@@ -103,6 +52,7 @@
           </button>
         </div>
       </div>
+      <!-- <script src="js/loadNavbar.js" defer></script> -->
     </header>
 
     <section class="about-us p-5" data-aos="fade-up">
@@ -201,5 +151,6 @@
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    <script src="js/loadNavbar.js"></script>
   </body>
 </html>
