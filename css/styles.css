@@ -40,7 +40,7 @@ body {
   /* font-weight: bold; */
 }
 
-.navbar input[type="search"]::before {
+.navbar .form-control[type="search"]::before {
   content: "\f002";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -53,7 +53,7 @@ body {
   pointer-events: none;
 }
 
-.navbar input[type="search"]:hover::before {
+.navbar .form-control[type="search"]:hover::before {
   color: rgb(20, 8, 8);
 }
 
@@ -63,6 +63,10 @@ body {
   background-position: center;
   color: #ffffff;
   position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero::before {
@@ -84,6 +88,11 @@ body {
 .hero .container {
   z-index: 2;
   width: 1000px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero img {
@@ -125,4 +134,51 @@ footer {
 
 .socials i:hover {
   color: #b3c7d6;
+}
+
+.about-us {
+  text-align: center;
+  background-color: #accbe2;
+}
+
+.about-us h2 {
+  font-weight: bold;
+  color: #002244;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.about-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-us img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-us p {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.about-description {
+  margin-top: 20px;
+}
+
+.highlight-text {
+  font-weight: bold;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.text-blue {
+  color: darkblue;
 }
