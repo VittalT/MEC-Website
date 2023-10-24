@@ -1,0 +1,128 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f9;
+}
+
+.navbar {
+  background-color: #002244;
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.navbar-nav .nav-item {
+  padding: 0px 20px;
+}
+
+.nav-item a {
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.nav-item a:hover {
+  color: #b3c7d6;
+}
+
+.navbar .form-control {
+  width: 175px;
+  max-width: 100%;
+  border-radius: 25px;
+  padding-left: 2.5rem;
+  transition: all 0.3s;
+}
+
+.navbar .form-control:hover {
+  background-color: #b3c7d6;
+}
+
+.navbar .form-control::placeholder {
+  /* font-weight: bold; */
+}
+
+.navbar input[type="search"]::before {
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #ccc;
+  pointer-events: none;
+}
+
+.navbar input[type="search"]:hover::before {
+  color: rgb(20, 8, 8);
+}
+
+.hero {
+  background-image: url("../images/MIT_dome.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero .container {
+  z-index: 2;
+  width: 1000px;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero h1,
+.hero p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 45px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.btn-blue {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002244;
+  color: #ffffff;
+}
+
+.socials i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.socials i:hover {
+  color: #b3c7d6;
+}

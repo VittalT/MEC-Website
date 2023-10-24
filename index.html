@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEC, MIT Undergraduate Entrepreneurship Club</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS (after all other styles for overrides) -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="./images/short-airplane.png" alt="MEC Logo" width="100" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a onclick="redirectToHomePage()" class="nav-link" href="#"
+                >Home</a
+              >
+            </li>
+            <li onclick="redirectToTeamPage()" class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a
+                onclick="redirectToStartupInterfacePage()"
+                class="nav-link"
+                href="#"
+                >Startup Interface</a
+              >
+            </li>
+            <li class="nav-item">
+              <a onclick="redirectToStarthousePage()" class="nav-link" href="#"
+                >Starthouse</a
+              >
+            </li>
+            <li class="nav-item">
+              <a onclick="redirectToContactUsPage()" class="nav-link" href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </div>
+      </nav>
+      <div class="hero text-center p-5">
+        <div class="container">
+          <img
+            src="images/long-white.png"
+            alt="MEC Logo"
+            data-aos="fade-down"
+          />
+          <p data-aos="fade-up">MIT's Undergraduate Community of Founders</p>
+          <button
+            onclick="redirectToSignupPage()"
+            class="btn btn-blue mt-3"
+            data-aos="zoom-in"
+          >
+            Join Newsletter
+          </button>
+        </div>
+      </div>
+      <!-- class="btn btn-primary mt-3" -->
+    </header>
+
+    <section class="about-us p-5">
+      <h2>About Us</h2>
+      <p>Lorem ipsum...</p>
+    </section>
+
+    <footer class="bg-light p-4">
+      <div class="newsletter">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Enter your email"
+        />
+        <button onclick="redirectToSignupPage()" class="btn btn-secondary mt-2">
+          Stay Updated
+        </button>
+      </div>
+      <div class="socials mt-3">
+        <a href="#"><i class="fab fa-email"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
