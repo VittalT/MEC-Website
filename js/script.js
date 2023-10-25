@@ -10,6 +10,10 @@ function redirectToTeamPage() {
   window.location.href = "team.html";
 }
 
+function redirectToLateNightPage() {
+  window.location.href = "late-night.html";
+}
+
 function redirectToStartupInterfacePage() {
   window.location.href = "startup-interface.html";
 }
