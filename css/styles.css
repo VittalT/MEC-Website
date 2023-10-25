@@ -111,15 +111,6 @@ body {
   padding-top: 20px;
 }
 
-.btn-blue {
-  background-color: #007bff;
-  color: #ffffff;
-}
-
-.btn-blue:hover {
-  background-color: #0056b3;
-}
-
 footer {
   display: flex;
   justify-content: space-between;
