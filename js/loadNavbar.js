@@ -6,3 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error(error));
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("footer.html")
+        .then((response) => response.text())
+        .then((content) => {
+            document.querySelector("#footer").innerHTML = content;
+        })
+        .catch((error) => console.error(error));
+});

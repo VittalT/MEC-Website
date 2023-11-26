@@ -6,40 +6,43 @@ body {
 }
 
 .navbar {
-  background-color: #002244;
+  /**background-color: #002244;
+  background-color: #270e5b;*/
+  background-color: #171a61;
+padding: 0 5%;
 }
 
 .navbar-brand {
-  padding: 10px;
+padding: 10px;
 }
 
 .navbar-nav .nav-item {
-  padding: 0px 20px;
+padding: 0px 20px;
 }
 
 .nav-item a {
-  color: #ffffff;
-  transition: all 0.3s;
+color: #ffffff;
+transition: all 0.3s;
 }
 
 .nav-item a:hover {
-  color: #b3c7d6;
+color: #b3c7d6;
 }
 
 .navbar .form-control {
-  width: 175px;
-  max-width: 100%;
-  border-radius: 25px;
-  padding-left: 2.5rem;
-  transition: all 0.3s;
+width: 175px;
+max-width: 100%;
+border-radius: 25px;
+padding-left: 2.5rem;
+transition: all 0.3s;
 }
 
 .navbar .form-control:hover {
-  background-color: #b3c7d6;
+background-color: #b3c7d6;
 }
 
 .navbar .form-control::placeholder {
-  /* font-weight: bold; */
+/* font-weight: bold; */
 }
 
 .navbar .form-control[type="search"]::before {
@@ -115,8 +118,31 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #002244;
-  color: #ffffff;
+  /**background-color: #002244;
+  color: #ffffff;*/
+  background-color: white;
+  padding: 0 5%;
+}
+
+footer li
+{
+  padding: 0 2%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }
 
 .socials i {
@@ -131,13 +157,14 @@ footer {
 
 .about-us {
   text-align: center;
-  background-color: #accbe2;
+  /**background-color: #accbe2;*/
+  background-color: #e2e3fa;
 }
 
-.about-us h2 {
+.title {
   font-weight: bold;
-  color: #002244;
-  font-size: 3rem;
+  color: #171a61;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
@@ -150,7 +177,13 @@ footer {
 .about-us img {
   max-width: 100%;
   display: block;
-  margin: 20px;
+  box-shadow: -14px 14px 2px 1px rgba(0, 0, 255, .2)
+}
+
+.about-image
+{
+  display: flex;
+  align-items: center;
 }
 
 .about-us p {
@@ -168,11 +201,11 @@ footer {
 }
 
 .text-purple {
-  color: purple;
+  color: #6328DA;
 }
 
 .text-blue {
-  color: darkblue;
+  color: #4950FB;
 }
 
 .goals {
@@ -326,4 +359,9 @@ footer {
   margin-bottom: 30px;
   border-bottom: 2px solid #ddd;
   padding-bottom: 15px;
+}
+
+.feature-2 svg
+{
+  margin-bottom: 15px;
 }
