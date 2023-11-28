@@ -9,40 +9,40 @@ body {
   /**background-color: #002244;
   background-color: #270e5b;*/
   background-color: #171a61;
-padding: 0 5%;
+  padding: 0 5%;
 }
 
 .navbar-brand {
-padding: 10px;
+  padding: 10px;
 }
 
 .navbar-nav .nav-item {
-padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .nav-item a {
-color: #ffffff;
-transition: all 0.3s;
+  color: #ffffff;
+  transition: all 0.3s;
 }
 
 .nav-item a:hover {
-color: #b3c7d6;
+  color: #b3c7d6;
 }
 
 .navbar .form-control {
-width: 175px;
-max-width: 100%;
-border-radius: 25px;
-padding-left: 2.5rem;
-transition: all 0.3s;
+  width: 175px;
+  max-width: 100%;
+  border-radius: 25px;
+  padding-left: 2.5rem;
+  transition: all 0.3s;
 }
 
 .navbar .form-control:hover {
-background-color: #b3c7d6;
+  background-color: #b3c7d6;
 }
 
 .navbar .form-control::placeholder {
-/* font-weight: bold; */
+  /* font-weight: bold; */
 }
 
 .navbar .form-control[type="search"]::before {
@@ -114,35 +114,36 @@ background-color: #b3c7d6;
   padding-top: 20px;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /**background-color: #002244;
-  color: #ffffff;*/
-  background-color: white;
-  padding: 0 5%;
-}
-
-footer li
-{
-  padding: 0 2%;
-}
-
 #page-container {
   position: relative;
   min-height: 100vh;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem;
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  background-color: white; /* Or any other color */
+  flex-wrap: nowrap; /* Prevents the items from wrapping */
+}
+
+footer > * {
+  margin-right: 15px; /* Adjust as needed for spacing */
+}
+
+.nav.social-media-links {
+  display: flex;
+  padding: 0;
+  margin-left: auto; /* Aligns the social media links to the right */
+}
+
+.nav.social-media-links li {
+  padding: 0 5px; /* Adjust as needed */
 }
 
 .socials i {
@@ -177,11 +178,10 @@ footer li
 .about-us img {
   max-width: 100%;
   display: block;
-  box-shadow: -14px 14px 2px 1px rgba(0, 0, 255, .2)
+  box-shadow: -14px 14px 2px 1px rgba(0, 0, 255, 0.2);
 }
 
-.about-image
-{
+.about-image {
   display: flex;
   align-items: center;
 }
@@ -201,11 +201,11 @@ footer li
 }
 
 .text-purple {
-  color: #6328DA;
+  color: #6328da;
 }
 
 .text-blue {
-  color: #4950FB;
+  color: #4950fb;
 }
 
 .goals {
@@ -361,7 +361,6 @@ footer li
   padding-bottom: 15px;
 }
 
-.feature-2 svg
-{
+.feature-2 svg {
   margin-bottom: 15px;
 }
