@@ -1,8 +1,17 @@
 /* Home Page */
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
@@ -115,12 +124,13 @@ body {
 }
 
 #page-container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;
+  flex-grow: 1;
 }
 
 footer {
@@ -128,8 +138,9 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
-  background-color: white; /* Or any other color */
-  flex-wrap: nowrap; /* Prevents the items from wrapping */
+  background-color: white;
+  flex-wrap: nowrap;
+  margin-top: auto;
 }
 
 footer > * {
