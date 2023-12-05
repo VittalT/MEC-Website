@@ -10,7 +10,7 @@ const teamMembers = [
   },
   {
     name: "Santiago Vazquez",
-    position: "Starthouse Co-Director",
+    position: "StartHouse Co-Director",
     image: "./images/team/Santiago_Vazquez.JPG",
     email: "svazquez@mit.edu",
     linkedin: "https://www.linkedin.com/in/santiago-enrique-vazquez-237a021a8",
@@ -19,7 +19,7 @@ const teamMembers = [
   },
   {
     name: "Jose (Ricardo) Ramos",
-    position: "Starthouse Co-Director",
+    position: "StartHouse Co-Director",
     image: "./images/team/Ricardo_Ramos.png",
     email: "jricramc@mit.edu",
     linkedin: "https://www.linkedin.com/in/josericardoramos22",

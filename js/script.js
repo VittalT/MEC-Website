@@ -18,7 +18,7 @@ function redirectToStartupInterfacePage() {
   window.location.href = "startup-interface.html";
 }
 
-function redirectToStarthousePage() {
+function redirectToStartHousePage() {
   window.location.href = "starthouse.html";
 }
 
